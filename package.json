@@ -8,14 +8,14 @@
     "babel-cli": "^6.24.0",
     "babel-preset-es2015": "^6.24.0",
     "cpr": "^2.0.2",
-    "cssstyle": "git://github.com/jansiegel/CSSStyleDeclaration.git",
+    "cssstyle": "https://github.com/jansiegel/CSSStyleDeclaration",
     "generate-release": "^0.11.0",
     "jest": "^19.0.2",
     "markdown-styles": "^3.1.9",
     "rimraf": "^2.5.4"
   },
   "peerDependencies": {
-    "handsontable": "^0.35.1"
+    "handsontable": "https://github.com/soakit/handsontable"
   },
   "scripts": {
     "test": "npm run _pre-testing && jest",
