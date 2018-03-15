@@ -4,6 +4,7 @@
 
 <script>
   import Handsontable from 'handsontable';
+  import 'handsontable/languages/zh-CN';
   import SettingsMapper from './settingsMapper';
   import {
     hotInit,
