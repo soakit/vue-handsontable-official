@@ -15,7 +15,7 @@
     "rimraf": "^2.5.4"
   },
   "peerDependencies": {
-    "handsontable": "https://github.com/soakit/handsontable"
+    "handsontable": "^0.38.1"
   },
   "scripts": {
     "test": "npm run _pre-testing && jest",
@@ -35,5 +35,8 @@
       "__HOT_VERSION__": "",
       "__HOT_BASE_VERSION__": ""
     }
+  },
+  "dependencies": {
+    "handsontable": "^0.38.1"
   }
 }

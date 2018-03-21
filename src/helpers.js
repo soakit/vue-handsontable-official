@@ -112,7 +112,7 @@ export function propWatchFactory(updateFunction, bulkUpdateFunction) {
     if (props.hasOwnProperty(prop)) {
       if (prop === 'settings') {
         props[prop] = {
-          handler: function(...args) { return arguments[0] !== arguments[1] && bulkUpdateFunction.call(this, prop, ...args); },
+          handler: function(...args) { return bulkUpdateFunction.call(this, prop, ...args); },
           deep: true
         };
 
